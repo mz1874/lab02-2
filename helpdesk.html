@@ -9,7 +9,7 @@
 <h1>CWA Help Desk Appointment</h1>
 <p>The Help Desk is located in ATC620 Open 10:30 to 19:00 Monday to Friday</p>
 <p>Check Blackboard for when Cwa tutors will be there</p>
-<form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+<form method="POST" action="http://mercury.swin.edu.au/it000000/formtest.php">
     <fieldset>
         <legend>Student details</legend>
         <p><label for="studentId">Student ID</label>
@@ -33,7 +33,7 @@
         <label for="COS60007">COS60007</label>
         <br>
         Your Tutor <select name="tutor" id="tutor" required>
-        <option value="" style="display:none">Please select</option>
+        <option value="" style="display:none" selected>Please select</option>
 
         <option value="1">
             1
@@ -49,7 +49,7 @@
 
     <fieldset>
         <legend>Issue</legend>
-        <input type="checkbox" id="v_html" name="v_html">
+        <input type="checkbox" id="v_html" name="checkList">
         <label for="v_html">HTML</label>
         <input type="checkbox" name="v_css" id="v_css">
         <label for="v_css">CSS</label>
